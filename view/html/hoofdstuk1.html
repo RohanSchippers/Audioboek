@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<img class="uitlegPageMainImg" src="../img/afbeeldingHoofdstuk2.png" alt="Afbeelding ter illustratie">
+<!-- TODO vervangen met php var hoofdstuk afbeelding -->
+<div class="uitlegPageText">
+    <h1 class="voorlezer">Ik ben <br> Manon de Leeuw</h1> <!-- TODO vervangen met php var voor naam voorlezer -->
+    <h2 class="hetHoofdstuk">En lees het hoofdstuk</h2>
+    <img class="blackArrow" src="../img/zwartePijl.png" alt="Een verwijzende pijl">
+    <h3 class="hoofdstukTitle">Jonas en Rosa</h3> <!-- TODO vervangen met php var naam hoofdstuk -->
+</div>
+<div class="pictureFrame">
+    <img class="fotoLijst" src="../img/pictureFrame.png" alt="Fotolijst">
+    <img class="fotoStudent" src="../img/fotoStudent.png" alt="Foto van voorlezer"> <!-- TODO vervangen met php var voor foto voorlezer -->
+</div>
+
+<div id="navText" class="invisible">
+    <h2 class="navContent1"><a href="index.html">Home</a></h2>
+    <h2 class="navContent2"><a href="#">Hoofdstukken</a></h2>
+    <h2 class="navContent3"><a href="uitleg.html">Informatie</a></h2>
+</div>
+
+<div class="mediaPlayer">
+    <audio controls>
+        <source src="../audio/Melissa_Nahumury_H.Vertrek_blz.12t-m15.m4a" type="audio/mpeg">
+        <!-- TODO vervangen met php var voor audiobestand -->
+    </audio>
+</div>
+
+<div id="nav-icon" onclick="hamburger()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+<div class="arrowNext">
+    <a href="#"><img class="nextArrow arrow" src="../img/rozePijl.png" alt="Volgend hoofdstuk"></a>
+    <!-- TODO Nog geen volgende pagina, toevoegen wanneer deze er wel is -->
+</div>
+<div class="arrowPrevious">
+    <a href="index.html"><img class="prevArrow arrow" src="../img/rozePijl.png" alt="Volgend hoofdstuk"></a>
+</div>
+
+<img src="../img/blackBg.jpg" class="overlay invisible" id="overlay">
+
+
+<script src="../javascript/hamburger.js"></script>
+</body>
+</html>
